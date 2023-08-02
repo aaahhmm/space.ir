@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40;
+    color: white;
+    position: absolute;
+    top: 10%;
+}
+#icon {
+    width: 19.2%;
+}
+nav {
+    direction: rtl;
+}
+#navbar{
+    width: 100%;
+    height: 30vh;
+    background-color: #0f3050;
+}
+#hbtn {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 25%;
+    right: 19.7%;
+    border-radius: 20%;
+    background-color: #194066;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#hbtn:hover {
+    width: 54px;
+    height: 34px;
+}
+#cbtn {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 25%;
+    right: calc(19.7% + 55px);
+    border-radius: 20%;
+    background-color: #194066;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#cbtn:hover {
+    width: 54px;
+    height: 34px;
+}
+#email {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#sendEmail {
+    width: 50px;
+    height: 30px;
+    border: 0ch;
+    border-radius: 20%;
+    background-color: #194066;
+    color: white;
+    transition: 0.3s;
+}
+#sendEmail:hover {
+    width: 54px;
+    height: 34px;
+}
+#callBtn {
+    width: 50px;
+    height: 30px;
+    border: 0ch;
+    border-radius: 20%;
+    background-color: #194066;
+    color: white;
+    transition: 0.3s;
+}
+#callBtn:hover {
+    width: 54px;
+    height: 34px;
+}
+#call {
+    margin-top: 24px;
+    margin-right: 20px;
+}
+#smsBtn {
+    width: 50px;
+    height: 30px;
+    border: 0ch;
+    border-radius: 20%;
+    background-color: #194066;
+    color: white;
+    transition: 0.3s;
+}
+#smsBtn:hover {
+    width: 54px;
+    height: 34px;
+}
+#sms {
+    margin-top: 24px;
+    margin-right: 20px;
+}
+#news {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75vh;
+}
+table {
+    width: 100%;
+    height: 75vh;
+    background-image: url("astronomers-may-now-fully-understand-why-the-sky-is-dark-at-night.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+th {
+    display: block;
+    width: 100%;
+    height: 25vh;
+    border: 1px solid gray;
+}
+h1 {
+    color: #fff;
+}
+.new {
+    position: absolute;
+    direction: rtl;
+    right: 20px;
+}
+pre {
+    position: absolute;
+    color: #fff;
+    right: 45px;
+}
